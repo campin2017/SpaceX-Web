@@ -8,7 +8,7 @@ import Card from "./Card";
 const ListCards = ({ missions }) => {
     return (
         <>
-            <SimpleGrid columns={{ base: 1, sm:2, md: 3, lg: 4, xl: 6 }} spacing={{ base: 5, lg: 8 }}>
+            <SimpleGrid columns={{ base: 1, sm:2, md: 3, lg: 4, xl: 6 }} spacing={{ base: 5, lg: 8 }} >
                 {
                     missions.map((mission, index: number) =>
                         <Card key={index}

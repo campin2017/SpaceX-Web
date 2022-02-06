@@ -28,7 +28,7 @@ export default function Home({ missionName, rocketName, imageLink, siteNameLong,
             {missionName}
           </Box>
           <Link href={videoLink} target={"_blank"}>
-            <LinkIcon height={5} width={5} float="right" />
+            <LinkIcon height={5} width={5} float="right" color="blue.500" />
           </Link>
 
         </SimpleGrid>
